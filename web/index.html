@@ -44,7 +44,7 @@
             $('button[name=submit]').click(function(){
             
             if ($('input[name=cname]').val() == ''|| $('input[name=cemail]').val() == '' ||  $('textarea[name=cmessage]').val()==''){
-                alert('please fill up the name');
+                alert('Please fill all fields!');
                 return false;
             }
             var templateParams = {
